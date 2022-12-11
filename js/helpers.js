@@ -5,3 +5,4 @@ export const create = (selector, className) => {
   if (className) el.className = className;
   return el;
 };
+export const ls = localStorage;
